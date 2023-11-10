@@ -27,7 +27,7 @@
     </a>
     <a href='https://signavatars.github.io/'>
     <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue'></a>
-    <a href='https://youtu.be/JfGFUCUHNqg'>
+    <a href='https://youtu.be/kheABA6LgDk'>
     <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a>
     <a href='https://github.com/ZhengdiYu/SignAvatars'>
       <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
@@ -46,7 +46,7 @@
 - [2023/11/2] [Paper](https://arxiv.org/abs/2310.20436) is now available. ⭐
 
 ## Dataset description
-<p align="center"> <a href="https://youtu.be/JfGFUCUHNqg"><img src="./assets/cover.png" width="80%"></a> </p>
+<p align="center"> <a href="https://youtu.be/kheABA6LgDk"><img src="./assets/cover.png" width="80%"></a> </p>
 
 ### Dataset download
 Coming soon!
@@ -55,8 +55,8 @@ Coming soon!
 |                              ![Blender](assets/hamnosys_1.gif)                              |                                                ![Blender](assets/word_6.gif)                                                 |
 | :--------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
 | SLP from HamNoSys |                                         SLP from Word                                          |
-|                        ![Blender](assets/asl5.gif)                         |                                            ![Blender](assets/asl4.gif)                                            |
-|        SLP from ASL | SLP from ASL |
+|                        ![Blender](assets/asl5.gif)                         |                                            ![Blender](assets/gsl4.gif)                                            |
+|        SLP from ASL | SLP from GSL |
 
 ## Instruction
 Coming soon!

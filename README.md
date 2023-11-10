@@ -74,5 +74,3 @@ Coming soon!
 
 ## Contact
 For technical questions, please contact ZhengdiYu@hotmail.com
-
-For commercial licensing, please contact shaolihuang@tencent.com

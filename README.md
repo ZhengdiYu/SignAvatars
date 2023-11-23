@@ -27,7 +27,7 @@
     </a>
     <a href='https://signavatars.github.io/'>
     <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue'></a>
-    <a href='https://youtu.be/kheABA6LgDk'>
+    <a href='https://youtu.be/GvIjKpgWfxI'>
     <img src='https://img.shields.io/badge/YouTube-Video-EA3323?style=flat&logo=youtube&logoColor=EA3323'></a>
     <a href='https://github.com/ZhengdiYu/SignAvatars'>
       <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
@@ -46,7 +46,7 @@
 - [2023/11/2] [Paper](https://arxiv.org/abs/2310.20436) is now available. ⭐
 
 ## Dataset description
-<p align="center"> <a href="https://youtu.be/kheABA6LgDk"><img src="./assets/cover.png" width="80%"></a> </p>
+<p align="center"> <a href="https://youtu.be/GvIjKpgWfxI"><img src="./assets/cover.png" width="80%"></a> </p>
 
 ### Dataset download
 Coming soon!

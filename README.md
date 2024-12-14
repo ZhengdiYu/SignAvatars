@@ -43,12 +43,12 @@
 <br/>
 
 ## News :triangular_flag_on_post:
+- [2024/12/4] [Paper] Visualization code is now provided. ⭐
 - [2023/11/2] [Paper](https://arxiv.org/abs/2310.20436) is now available. ⭐
 
 ## TODO
 - [x] Initial release of annotations.
-- [ ] Release the visualization code.
-- [ ] Release Videos after the agreement of video owners.
+- [x] Release the visualization code.
 - [ ] Enrich the dataset
 
 ## Application examples on SLP
@@ -190,6 +190,51 @@ Please note that the `transl` is set to `0` in these subsets as there is no root
 - The signers are standing and doing a single sign.
 - Each video is annotated with word-level English:
 - The average length of the video is 57 frames with 24 fps
+
+## Getting Started & Visualization
+### Installation
+Using the virtual environment by running:
+```bash
+conda create -n signavatars python==3.8.8  
+conda activate signavatars
+conda install -n signavatars pytorch==1.10.0 torchvision==0.11.1 cudatoolkit=10.2 -c pytorch
+pip install -r requirements.txt
+```
+
+### Visualize SMPL-X Annotations with pyrender (No need to download videos)
+Alternatively, youcan can visualize .pkl from our dataset.
+```bash
+python vis.py \
+--pkl_file_path <path_to_pkl_folder/file> \
+```
+This will render the motion with its text annotation. Then, the results will be saved in `./render_results/`:
+<p float="left">
+  <img src="assets/blender3.gif" width="49%" />
+  <img src="assets/blender2.gif" width="49%" />
+</p>
+
+<p float="left">
+  <img src="assets/GB1.gif" width="49%" />
+  <img src="assets/GB4.gif" width="49%" />
+</p>
+
+### Visualize SMPL-X Annotations Overlay on Raw Videos with pyrender
+To visualize the motion overlay on the image, you need to first download the videos and run:
+```bash
+python vis.py \
+--pkl_file_path <path_to_pkl_folder/file> \
+--video_path <path_to_video_folder>
+--overlay
+```
+Then, the results will be saved in `./render_results_overlay/` (default shape here):
+<p float="left">
+  <img src="assets/O1.gif" width="49%" />
+  <img src="assets/O2.gif" width="49%" />
+</p>
+<p float="left">
+  <img src="assets/O3.gif" width="49%" />
+  <img src="assets/O4.gif" width="49%" />
+</p>
 
 ## Citation
 ```bibtex

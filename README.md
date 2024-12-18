@@ -238,13 +238,13 @@ Then, the results will be saved in `./render_results_overlay/` (default shape he
 
 ## Citation
 ```bibtex
-@inproceedings{yu2023signavatars,
-  title = {SignAvatars: A Large-scale 3D Sign Language Holistic Motion Dataset and Benchmark},
-  author = {Yu, Zhengdi and Huang, Shaoli and Cheng, Yongkakng and Birdal, Tolga},
-  journal = {arXiv preprint arXiv:2310.20436},
-  month     = {November},
-  year      = {2023}
-  }
+@inproceedings{yu2024signavatars,
+  title={SignAvatars: A large-scale 3D sign language holistic motion dataset and benchmark},
+  author={Yu, Zhengdi and Huang, Shaoli and Cheng, Yongkang and Birdal, Tolga},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  pages={1--19},
+  year={2024}
+}
 ```
 
 ## Contact

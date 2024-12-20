@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h1 align="center">SignAvatars: A Large-scale 3D Sign Language Holistic Motion Dataset and Benchmark</h1>
+  <h1 align="center">(ECCV 2024) SignAvatars: A Large-scale 3D Sign Language Holistic Motion Dataset and Benchmark</h1>
   <p align="center">
     <a href="https://github.com/ZhengdiYu"><strong>Zhengdi Yu</strong></a><sup>1,2</sup>
     ·
@@ -12,6 +12,9 @@
   </p>
   <p align="center">
     <strong><sup>1</sup>Imperial College London</strong></a>, <strong><sup>2</sup>Tencent AI Lab</strong></a>
+  </p>
+  <p align="center">
+    <strong>ECCV 2024</strong></a>
   </p>
 <!--   <h2 align="center">ICLR 2024</h2> -->
   <div align="center">

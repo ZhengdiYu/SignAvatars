@@ -1,0 +1,40 @@
+# Access SMPL models.
+smplx_models: "../../fit_smplx/common/utils/human_model_files/"
+star_models: "../../fit_smplx/common/utils/human_model_files/data/star_models"
+
+# Access to datasets.
+datasets:
+  amass:
+    "../data/amass"
+
+# Pytorch configuration.
+device: "cuda:0"
+f_precision: 32
+i_precision: 64
+
+# Camera.
+znear: 0.01
+zfar: 1000.0
+camera_zoom_speed: 0.05
+
+# Viewer.
+window_width: 1600
+window_height: 900
+fullscreen: False
+resizable: True
+vsync: True
+export_dir: "../export"
+playback_fps: 60
+scene_fps: 60
+run_animations: False
+dark_mode: False
+shadows_enabled: True
+auto_set_floor: True
+auto_set_camera_target: True
+backface_culling: True
+background_color: [1.0, 1.0, 1.0, 1.0]
+window_type: "pyqt5"
+
+# Server for remote connections.
+server_enabled: False
+server_port: 8417

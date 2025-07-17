@@ -204,6 +204,20 @@ conda install -n signavatars pytorch==1.10.0 torchvision==0.11.1 cudatoolkit=10.
 pip install -r requirements.txt
 ```
 
+### Visualize Dataset with Interactive Visualizer
+After downloading the annotations or running the fitting process, we will get processed data in a .pkl file. Here you can browse the data with a modified version of [aitviewer](https://github.com/eth-ait/aitviewer/) with cross-platform support on Windows, Linux, and macOS:
+```bash
+cd visualizer/
+pip install -e .
+cd examples/load_language2motion.py
+python vis_language2motion.py --pkl_file_path <path_to_pkl_folder> --video_id <name of the video> --video_folder <path_to_video_folder>
+```
+Press `Space` to run the animation and `D` to switch between light and dark mode. The text annotation will be showed at the top-right. If the `--video_folder` is not provided, the video will not be rendered.
+<p float="left">
+  <img src="assets/viewer.png" width="49%" />
+  <img src="assets/viewer2.png" width="49%" />
+</p>
+
 ### Visualize SMPL-X Annotations with pyrender (No need to download videos)
 Alternatively, youcan can visualize .pkl from our dataset.
 ```bash
